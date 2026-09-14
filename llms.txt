@@ -17,6 +17,7 @@ PraxisVerify operates a secure, zero-trust marketplace connecting life sciences 
 - Industry Specialisation: Experts categorised by therapeutic area (Cardiovascular, Orthopaedic, IVD, SaMD) and regulatory jurisdiction (FDA, EMA, Health Canada, NMPA).
 - Quality Assurance: Document review by credentialed independent experts, with every action logged in a complete audit trail designed to support 21 CFR Part 11.
 - One-Time Credentialing: Platform credentialing replaces per-client vendor qualification, reducing expert engagement from months to hours.
+- Network Access: The expert network is invite-only. PraxisVerify does not accept open applications and does not review unsolicited ones. Experts join by invitation or by referral from an expert already credentialed in the network. Experts based outside the EU or UK join by referral only.
 
 ## Platform Features
 
@@ -48,7 +49,7 @@ PraxisVerify operates a secure, zero-trust marketplace connecting life sciences 
 
 - [Homepage](https://praxisverify.com/): Main landing page with platform overview, features, and early access signup
 - [About](https://praxisverify.com/about): Founder biography, mission, company background, and Ireland life sciences context
-- [For Experts](https://praxisverify.com/experts): Expert network application page — credentialing, rates, terms, vetting process, and FAQ for regulatory professionals
+- [For Experts](https://praxisverify.com/experts): Expert network information page — the network is invite-only and not accepting open applications; covers credentialing, rates, terms, vetting process, and FAQ for regulatory professionals
 - [Contact](https://praxisverify.com/contact): Demo booking, enquiry form, and contact details
 - [Privacy Policy](https://praxisverify.com/privacy): GA4 analytics cookies, contact data handling, GDPR rights
 - [Terms of Service](https://praxisverify.com/terms): Platform usage terms, IP policy, early access terms, governing law

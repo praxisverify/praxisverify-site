@@ -203,7 +203,7 @@ Dark band matching the index hero: gradient, masked grid, `.authority-watermark`
 
 ### Nav (all six pages)
 
-Sticky translucent navy bar on every page. Link set: **The gap · How it works · Audit trail · For experts · About · Contact**, plus a pill CTA — emerald "Book a demo" (cal.eu) on five pages, amber "Apply" (`#apply`) on experts. "For experts" is amber on every page.
+Sticky translucent navy bar on every page. Link set: **The gap · How it works · Audit trail · For experts · About · Contact**, plus a pill CTA — emerald "Book a demo" (cal.eu) on five pages, amber "How to join" (`#apply`) on experts. "For experts" is amber on every page.
 
 - Current page marked with `aria-current="page"` — emerald inset underline, amber for the experts link. `index.html` runs an IntersectionObserver scroll-spy over `#problem`, `#how`, `#trail`, `#early-access`.
 - `aria-expanded`/`aria-controls` on the toggle; outside-click and Escape close (Escape returns focus to the toggle).
