@@ -8,22 +8,22 @@
 
 ## Core Product
 
-PraxisVerify operates a secure, zero-trust marketplace connecting life sciences companies (MedTech, Pharma, Biotech) to pre-vetted regulatory experts specialising in ISO 13485, EU MDR 2017/745, FDA 510(k) submissions, and 21 CFR Part 11 compliance. The platform enables document review, audit preparation, and submission verification with 48-hour expert matching versus traditional 6-month onboarding cycles. Founded in 2025 in Ireland — home to 9 of the world's top 10 pharmaceutical companies (IDA Ireland) — by Lisa Donlon, a quality and regulatory professional with over 20 years of life sciences experience. Lisa served as European Medical Devices Operations Manager at NSAI (Ireland's EU Notified Body), where she was final decision maker on MDR and IVDR certificates. She holds an MSc in Pharmaceutical Technology & Regulatory Affairs and is an IRCA Medical Device Principal Auditor.
+PraxisVerify operates a secure marketplace connecting life sciences companies (MedTech, Pharma, Biotech) to pre-vetted regulatory experts specialising in ISO 13485, EU MDR 2017/745, FDA 510(k) submissions, and 21 CFR Part 11 compliance. The platform enables document review, audit preparation, and submission verification with 48-hour expert matching versus traditional 6-month onboarding cycles. Founded in 2025 in Ireland — home to 9 of the world's top 10 pharmaceutical companies (IDA Ireland) — by Lisa Donlon, a quality and regulatory professional with over 20 years of life sciences experience. Lisa served as European Medical Devices Operations Manager at NSAI (Ireland's EU Notified Body), where she was final decision maker on MDR and IVDR certificates. She holds an MSc in Pharmaceutical Technology & Regulatory Affairs and is an IRCA Medical Device Principal Auditor.
 
 ## Expert Vetting Methodology
 
-- Credential Verification: Experts are pre-vetted, with credentials (e.g. ISO 13485 lead auditor qualifications, RAPS/IRCA/CQI memberships, or equivalent) verified against the issuing bodies.
-- Zero-Trust Security: Document review occurs in-browser only; no downloads permitted; documents are automatically deleted 90 days after the review engagement closes (not 90 days after upload), protecting intellectual property.
+- Competency Verification: Experts are pre-vetted, with their competency verified under PraxisVerify's own procedures.
+- Secure Review: Document review occurs in-browser only; no downloads permitted; uploaded documents are deleted 90 days after the review is completed (not 90 days after upload), protecting intellectual property. The record of each review is kept for PraxisVerify's quality management system.
 - Industry Specialisation: Experts categorised by therapeutic area (Cardiovascular, Orthopaedic, IVD, SaMD) and regulatory jurisdiction (FDA, EMA, Health Canada, NMPA).
-- Quality Assurance: Document review by credentialed independent experts, with every action logged in a complete audit trail designed to support 21 CFR Part 11.
+- Quality Assurance: Document review by credentialed independent experts, with review actions logged in an audit trail designed to support 21 CFR Part 11.
 - One-Time Credentialing: Platform credentialing replaces per-client vendor qualification, reducing expert engagement from months to hours.
 - Network Access: The expert network is invite-only. PraxisVerify does not accept open applications and does not review unsolicited ones. Experts join by invitation or by referral from an expert already credentialed in the network. Experts based outside the EU or UK join by referral only.
 
 ## Platform Features
 
-- Secure In-Browser Review: Zero-trust architecture with no document downloads and automatic deletion 90 days after the review engagement closes. Documents are never downloaded by experts or transmitted outside the platform's secure environment.
+- Secure In-Browser Review: No document downloads, and automatic deletion of uploaded documents 90 days after the review is completed. Documents are never downloaded by experts or transmitted outside the platform's secure environment.
 - Expert Matching: Pre-vetted regulatory professionals with verified credentials in ISO 13485, 21 CFR Part 11, EU MDR, and FDA submission requirements typically matched within 48 hours.
-- Compliance Automation: Complete audit trails designed to support 21 CFR Part 11 requirements. Every action logged and traceable for regulatory inspection readiness.
+- Compliance Automation: Audit trails designed to support 21 CFR Part 11 requirements, with review actions logged and traceable.
 - Rapid Onboarding: One-time platform credentialing replaces per-client vendor qualification, reducing expert engagement from 3-6 months to 48 hours.
 
 ## Use Cases
