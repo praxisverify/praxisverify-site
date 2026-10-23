@@ -144,6 +144,8 @@ Radial navy gradient, masked hairline grid, mark watermark at 6% top-right. Ambe
 
 Both lift 4px on hover. Label, title and paragraph inside each door **must be block-level** — they were spans in the first cut and collapsed onto one line.
 
+**Certification mark (`.hero-top` / `.hero-cert`, added 2026-10-23).** The amber badge and the NQA ISO 13485 mark share one wrapping flex row above the headline: badge left, mark right on desktop; the mark drops below the badge on narrow screens. The mark is NQA's standalone ISO 13485 mark (`img/cert/nqa-iso-13485.jpg`, converted from NQA's CMYK file to sRGB; it carries its own border, so it needs no tile), linked to NQA's ISO 13485 page. The same mark is in the footer of every page and on the social card. The UKAS-accredited version (`img/cert/nqa-iso-13485-ukas.jpg`) is kept in the repo but not shown. NQA rules: website, advertising and corporate literature only — never on platform reports, signed deliverables or certificates.
+
 ### Stat strip (`.band-deep`, index.html)
 
 Three auto-fit columns on the deepest navy, separated by vertical hairlines. Numerals are EB Garamond 600 in **amber** at `clamp(2.6rem, 5vw, 4rem)`; labels are `--text-muted`. Source line below in mono.
@@ -234,7 +236,7 @@ Unchanged. Fixed at bottom, Accept / Decline, gating GA4 via Consent Mode v2, ch
 
 ## Assets
 
-Unchanged. Favicons `img/brand/mark-adaptive.svg` + `img/pvlogo.png` + `/favicon-180.png`; social card `img/social-card.png` (1200×630) with duplicates in `img/brand/` and the repo root; template at `drafts/social-card.html`.
+Favicons `img/brand/mark-adaptive.svg` + `img/pvlogo.png` + `/favicon-180.png`; social card `img/social-card.png` (1200×630) with duplicates in `img/brand/` and the repo root; template at `drafts/social-card.html` (render at 1200×630, device scale 1, with headless Chrome). Since 2026-10-23 the card carries the NQA ISO 13485 mark and certificate number. When the card changes, bump the `?v=` query on every page's `og:image` / `twitter:image` and re-scrape in LinkedIn's Post Inspector.
 
 `img/brand/logo-stacked-emerald-10b981-transparent.svg` is no longer rendered (the experts page header logo is hidden) but remains in the repo.
 

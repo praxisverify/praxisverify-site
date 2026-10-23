@@ -2,13 +2,13 @@
 
 > Expert-in-the-Loop verification platform connecting life sciences companies to pre-vetted regulatory experts through a secure, auditable marketplace.
 
-- Last Updated: 2026-08-15
+- Last Updated: 2026-10-23
 - Contact: info@praxisverify.com
 - Website: [https://praxisverify.com](https://praxisverify.com)
 
 ## Core Product
 
-PraxisVerify operates a secure marketplace connecting life sciences companies (MedTech, Pharma, Biotech) to pre-vetted regulatory experts specialising in ISO 13485, EU MDR 2017/745, FDA 510(k) submissions, and 21 CFR Part 11 compliance. The platform enables document review, audit preparation, and submission verification with 48-hour expert matching versus traditional 6-month onboarding cycles. Founded in 2025 in Ireland — home to 9 of the world's top 10 pharmaceutical companies (IDA Ireland) — by Lisa Donlon, a quality and regulatory professional with over 20 years of life sciences experience. Lisa served as European Medical Devices Operations Manager at NSAI (Ireland's EU Notified Body), where she was final decision maker on MDR and IVDR certificates. She holds an MSc in Pharmaceutical Technology & Regulatory Affairs and is an IRCA Medical Device Principal Auditor.
+PraxisVerify operates a secure marketplace connecting life sciences companies (MedTech, Pharma, Biotech) to pre-vetted regulatory experts specialising in ISO 13485, EU MDR 2017/745, FDA 510(k) submissions, and 21 CFR Part 11 compliance. PraxisVerify's quality management system is certified to ISO 13485:2016 by NQA (certificate 228075). The platform enables document review, audit preparation, and submission verification with 48-hour expert matching versus traditional 6-month onboarding cycles. Founded in 2025 in Ireland — home to 9 of the world's top 10 pharmaceutical companies (IDA Ireland) — by Lisa Donlon, a quality and regulatory professional with over 20 years of life sciences experience. Lisa served as European Medical Devices Operations Manager at NSAI (Ireland's EU Notified Body), where she was final decision maker on MDR and IVDR certificates. She holds an MSc in Pharmaceutical Technology & Regulatory Affairs and is an IRCA Medical Device Principal Auditor.
 
 ## Expert Vetting Methodology
 
@@ -43,6 +43,7 @@ PraxisVerify operates a secure marketplace connecting life sciences companies (M
 - Industry: Life Sciences Regulatory Technology (RegTech)
 - Target Market: MedTech manufacturers, Pharma companies, medical device companies
 - Compliance Standards: 21 CFR Part 11, ISO 13485, EU MDR 2017/745, FDA QSR
+- Certification: Quality management system certified to ISO 13485:2016 by NQA (UKAS accredited), certificate 228075, issued 21 Oct 2026, valid until 20 Oct 2029. Scope: "The independent review and verification of medical device regulatory documentation by competency-matched experts."
 - Status: Early access, actively onboarding MedTech manufacturers
 
 ## Pages
