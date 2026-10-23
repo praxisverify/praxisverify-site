@@ -236,7 +236,7 @@ Unchanged. Fixed at bottom, Accept / Decline, gating GA4 via Consent Mode v2, ch
 
 ## Assets
 
-Favicons `img/brand/mark-adaptive.svg` + `img/pvlogo.png` + `/favicon-180.png`; social card `img/social-card.png` (1200×630) with duplicates in `img/brand/` and the repo root; template at `drafts/social-card.html` (render at 1200×630, device scale 1, with headless Chrome). Since 2026-10-23 the card carries the NQA ISO 13485 mark and certificate number. When the card changes, bump the `?v=` query on every page's `og:image` / `twitter:image` and re-scrape in LinkedIn's Post Inspector.
+Favicons `img/brand/mark-adaptive.svg` + `img/pvlogo.png` + `/favicon-180.png`; social card `img/social-card.png` (1200×630) with duplicates in `img/brand/` and the repo root; template at `drafts/social-card.html` (render at 1200×630, device scale 1, with headless Chrome). Since 2026-10-23 the card follows the homepage hero: the mark and "PraxisVerify" as the headline, the amber tagline, and a bottom row with the NQA ISO 13485 mark and certificate number (left) and the domain (right). When the card changes, bump the `?v=` query on every page's `og:image` / `twitter:image` and re-scrape in LinkedIn's Post Inspector.
 
 `img/brand/logo-stacked-emerald-10b981-transparent.svg` is no longer rendered (the experts page header logo is hidden) but remains in the repo.
 

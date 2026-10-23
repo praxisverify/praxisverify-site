@@ -4,82 +4,83 @@
 <meta charset="UTF-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,600&family=Inter:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { width: 1200px; height: 630px; overflow: hidden; }
 body {
-    background: #0A192F;
     position: relative;
+    padding: 96px 80px 64px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
+    justify-content: space-between;
+    background: radial-gradient(120% 90% at 8% 0%, #12294c 0%, #0A192F 55%, #08152a 100%);
 }
-.wm { position: absolute; opacity: 0.05; pointer-events: none; }
-.wm-1 { top: -180px; left: -120px; width: 380px; }
-.wm-2 { bottom: -200px; right: -100px; width: 420px; }
-.logo { width: 300px; display: block; position: relative; z-index: 1; }
+.grid {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(148,163,184,0.055) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,0.055) 1px, transparent 1px);
+    background-size: 64px 64px;
+}
+.wm { position: absolute; top: -60px; right: -40px; width: 420px; opacity: 0.06; }
+.main, .foot { position: relative; z-index: 1; }
+.lockup { display: flex; align-items: center; gap: 30px; margin-bottom: 26px; }
+.lockup img { width: 72px; height: 129px; display: block; }
+.lockup span {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
 .tagline {
     font-family: 'EB Garamond', Georgia, serif;
     font-style: italic;
     font-weight: 600;
-    font-size: 34px;
-    color: #10B981;
-    text-align: center;
-    letter-spacing: 0.01em;
-    position: relative;
-    z-index: 1;
+    font-size: 36px;
+    color: #F59E0B;
 }
-.cert {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    margin-top: 6px;
-    position: relative;
-    z-index: 1;
-}
-.cert-mark { line-height: 0; }
-.cert-mark img { width: 88px; height: 132px; display: block; }
+.foot { display: flex; align-items: flex-end; justify-content: space-between; }
+.cert { display: flex; align-items: center; gap: 22px; }
+.cert img { width: 72px; height: 108px; display: block; }
 .cert-text { display: flex; flex-direction: column; gap: 10px; }
 .cert-title {
     font-family: 'EB Garamond', Georgia, serif;
     font-weight: 700;
-    font-size: 34px;
-    color: #F4F6FA;
+    font-size: 32px;
     letter-spacing: -0.01em;
+    color: #F4F6FA;
 }
-.cert-sub {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+.mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: #96A0B4;
-    letter-spacing: 0.04em;
 }
-.domain {
-    font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    color: #8892A6;
-    letter-spacing: 0.08em;
-    position: relative;
-    z-index: 1;
-}
+.domain { font-size: 18px; }
 </style>
 </head>
 <body>
-<img class="wm wm-1" src="../img/brand/mark-white-transparent.svg" alt="">
-<img class="wm wm-2" src="../img/brand/mark-white-transparent.svg" alt="">
-<img class="logo" src="../img/brand/logo-stacked-white-transparent.svg" alt="PraxisVerify">
-<p class="tagline">Verified Human Expertise for Life Sciences Compliance</p>
-<div class="cert">
-    <span class="cert-mark"><img src="../img/cert/nqa-iso-13485.jpg" alt="NQA ISO 13485 Medical Devices certification mark"></span>
-    <div class="cert-text">
-        <p class="cert-title">ISO 13485:2016 certified</p>
-        <p class="cert-sub">NQA &middot; certificate 228075</p>
-        <p class="domain">praxisverify.com</p>
+<div class="grid"></div>
+<img class="wm" src="../img/brand/mark-white-transparent.svg" alt="">
+<div class="main">
+    <div class="lockup">
+        <img src="../img/brand/mark-white-transparent.svg" alt="">
+        <span>PraxisVerify</span>
     </div>
+    <p class="tagline">Verified Human Expertise for Life Sciences Compliance</p>
+</div>
+<div class="foot">
+    <div class="cert">
+        <img src="../img/cert/nqa-iso-13485.jpg" alt="NQA ISO 13485 Medical Devices certification mark">
+        <div class="cert-text">
+            <p class="cert-title">ISO 13485:2016 certified</p>
+            <p class="mono">NQA &middot; certificate 228075</p>
+        </div>
+    </div>
+    <p class="mono domain">praxisverify.com</p>
 </div>
 </body>
 </html>
