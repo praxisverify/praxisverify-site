@@ -183,6 +183,10 @@ Not linked from the nav, and not observed by the scroll-spy.
 
 Auto-fit grid of four. Each step is a top rule + mono numeral (`01`–`04`) + serif title + body. Steps 01–03 are emerald; **step 04 is amber** (the verified outcome). The old 48px numbered circles and connector rail are gone. On `experts.html` the same markup (`.flow-step`, `.flow-num`) is restyled to match; `.flow-num::before { content: "0" }` supplies the leading zero for that page's `1`–`4` numerals.
 
+### Film (`.film`, index.html, added 2026-11-16)
+
+An 85-second film in the `#how` band, between the lede and the four-step flow. A native `<video controls preload="none" playsinline>` with a poster and an English captions track; nothing loads until the visitor presses play, and it never autoplays. The files are self-hosted in `media/` (`praxisverify-film.mp4`, `-poster.jpg`, `.en.vtt`), so the CSP needs no change (`default-src 'self'` covers media) and no third party is involved. Frame: 16px radius, `--rule-light` border, soft navy shadow, capped at 960px. Mono caption below. The film's source (the timed page, capture script and audio) is outside this repo, in `~/PraxisVerify/company-tour/website-film/source/`. It shows the NQA ISO 13485 mark under the same rules as the hero mark.
+
 ### Feature cards (`.features`)
 
 Auto-fit grid of four bordered cards. The Security card (`.feature-hero`) is tinted emerald and carries the `.audit-seal` stamp.

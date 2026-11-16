@@ -19,7 +19,7 @@
     <link rel="icon" type="image/svg+xml" href="img/brand/mark-adaptive.svg">
     <link rel="icon" type="image/png" href="img/pvlogo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-    <meta name="date" content="2026-10-23">
+    <meta name="date" content="2026-11-16">
     <link rel="canonical" href="https://praxisverify.com/">
     <link rel="help" type="text/plain" href="https://praxisverify.com/llms.txt" title="LLM site info">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://www.google-analytics.com https://www.googletagmanager.com https://region1.google-analytics.com;">
@@ -128,7 +128,7 @@ gtag('js',new Date());gtag('config','G-HCNYQKTP9W');if(localStorage.getItem('coo
         "description": "PraxisVerify connects life sciences companies to pre-vetted regulatory experts through a secure, auditable platform.",
         "url": "https://praxisverify.com",
         "datePublished": "2025-09-01",
-        "dateModified": "2026-10-23",
+        "dateModified": "2026-11-16",
         "author": {
             "@type": "Person",
             "name": "Lisa Donlon"
@@ -405,6 +405,12 @@ details[open] > summary .pv-chev{transform:rotate(90deg)}
 .stamp-on-mount{animation:pvStamp 320ms cubic-bezier(0.2,0.7,0.3,1.2) both}
 @media(prefers-reduced-motion:reduce){.stamp-on-mount{animation:none}}
 
+/* ── film ── */
+.film{margin:0 0 3.5rem;max-width:960px}
+.film video{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:16px;background:var(--bg);border:1px solid var(--rule-light);box-shadow:0 24px 60px rgba(10,25,47,0.18)}
+.film figcaption{font-family:var(--mono);font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--card-text-faint);margin-top:0.9rem}
+@media(max-width:480px){.film video{border-radius:12px}}
+
 /* ── numbered flow ── */
 .flow{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;margin-bottom:3.5rem}
 .flow li{border-top:2px solid var(--emerald);padding-top:1.1rem}
@@ -646,7 +652,16 @@ details[open] > summary .pv-chev{transform:rotate(90deg)}
     <div class="container fade-in">
         <p class="eyebrow eyebrow-amber">What we're building</p>
         <h2 class="h2" style="max-width:22ch">Four steps, forty-eight hours</h2>
-        <p class="lede" style="margin-bottom:3rem">A secure marketplace connecting life sciences companies to pre-vetted regulatory experts. Upload documents to a secure environment. Experts review in-browser &mdash; no downloads, no email, risk minimised.</p>
+        <p class="lede" style="margin-bottom:2.25rem">A secure marketplace connecting life sciences companies to pre-vetted regulatory experts. Upload documents to a secure environment. Experts review in-browser &mdash; no downloads, no email, risk minimised.</p>
+
+        <figure class="film">
+            <video controls preload="none" playsinline poster="/media/praxisverify-film-poster.jpg" width="1920" height="1080" aria-label="PraxisVerify in 85 seconds: how an independent expert review works">
+                <source src="/media/praxisverify-film.mp4" type="video/mp4">
+                <track kind="captions" src="/media/praxisverify-film.en.vtt" srclang="en" label="English">
+                <a href="/media/praxisverify-film.mp4">Watch the film (MP4, 18 MB)</a>
+            </video>
+            <figcaption>Watch &middot; 85 seconds &middot; screens show synthetic example data</figcaption>
+        </figure>
 
         <ol class="flow">
             <li>
