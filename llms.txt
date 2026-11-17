@@ -2,7 +2,7 @@
 
 > Expert-in-the-Loop verification platform connecting life sciences companies to pre-vetted regulatory experts through a secure, auditable marketplace.
 
-- Last Updated: 2026-11-16
+- Last Updated: 2026-11-17
 - Contact: info@praxisverify.com
 - Website: [https://praxisverify.com](https://praxisverify.com)
 
